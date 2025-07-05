@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react({
     jsxRuntime: 'automatic',
   })],
-  base: '/dungeon-generator/',
+  base: '/test_repo_2_miya123123/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
