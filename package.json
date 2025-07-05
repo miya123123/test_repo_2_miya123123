@@ -1,0 +1,8 @@
+{
+  "name": "sample-gh-pages",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cp -r src dist"
+  },
+  "devDependencies": {}
+} 
