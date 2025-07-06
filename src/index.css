@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-100;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+@layer components {
+  .dungeon-cell {
+    @apply w-4 h-4 border border-slate-700 transition-colors duration-200;
+  }
+  
+  .dungeon-wall {
+    @apply bg-dungeon-wall;
+  }
+  
+  .dungeon-floor {
+    @apply bg-dungeon-floor;
+  }
+  
+  .dungeon-door {
+    @apply bg-dungeon-door;
+  }
+  
+  .dungeon-room {
+    @apply bg-dungeon-room;
+  }
+  
+  .dungeon-corridor {
+    @apply bg-dungeon-corridor;
+  }
+  
+  .dungeon-treasure {
+    @apply bg-dungeon-treasure;
+  }
+  
+  .dungeon-monster {
+    @apply bg-dungeon-monster;
+  }
+  
+  .dungeon-trap {
+    @apply bg-dungeon-trap;
+  }
+}
